@@ -1,0 +1,21 @@
+{
+  "mappings": {
+     "movie": {
+        "dynamic": "false",
+        "properties": {
+           "keywords": {
+              "type": "text",
+              "analyzer": "english"
+           },
+           "plot": {
+              "type": "text",
+              "analyzer": "english"
+           },
+           "title": {
+              "type": "text",
+              "analyzer": "english"
+           }
+        }
+     }
+  }
+}
